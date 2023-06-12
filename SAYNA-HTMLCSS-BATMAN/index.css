@@ -1,0 +1,592 @@
+
+*{
+    /*margin: 0 0;*/
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url("./Illustrations/Bathome1.png");
+    background-size: cover;
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+    height: 901px;
+    font-size: 12px; 
+    overflow-x: hidden; 
+    animation: body 1s ease-out forwards;
+
+}
+main{
+    background-color: black;
+}
+
+header {
+    height: 150vh;
+    max-width: 100%; min-width: 30%;
+}
+div.Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    width: 90%;
+    margin:0px auto;
+    padding: 25px 80px;
+    border-left: 3px solid #BCBBBD;
+    border-right: 3px solid #BCBBBD;
+    border-bottom: 3px solid #BCBBBD;
+}
+.menu-right h1:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+div.introductoin {
+    height: 130vh;
+    width: 90%;
+    margin: 0px auto;
+    padding: 25px;
+    border-left: 3px solid #BCBBBD;
+    border-right: 3px solid #BCBBBD;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div.sous-intro{
+    width: 40vw;
+    height: 50vh;
+    margin: 250px auto;
+}
+
+div.sous-intro p{
+ text-align:center;
+}
+
+.sous-intro h1{
+    text-align:center;
+     margin: 20px 0px
+}
+
+.header-btn {
+    margin-left: -56%;
+    width: 200%; 
+    display: inline-block;
+    height: 152px;
+}
+
+button {
+    height: 22%;
+    border: none;
+    background: linear-gradient(to right, #EDDEBF, #890008);
+    padding: 5px 10px;
+    margin: 1%;
+    display: inline-block;
+    justify-content: space-between;
+    opacity: 40%;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.header-btn button:hover{
+    opacity: 100%;
+}
+/* logo vertical */
+div.defi-logo {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    flex-wrap: wrap;
+    top:255px;
+    right:30px
+}
+
+div.defi-logo div{
+    width:100%;
+    text-align: center;
+    margin-top: 20px
+}
+.flechee img{
+    width: 7vw;
+    min-width: 50px;
+    height: auto;
+}
+.logo-inline img{
+    width: 2vw;
+    min-width: 20px;
+    min-height: 20px;
+}
+div.logo-inline {
+    text-align:center
+}
+.flèche_down_header{
+
+    align-items: center;
+    margin-left: 45%;
+    margin-top: -13%;
+}
+/* Page de web */
+main {
+    margin: 0 ;
+    width: 90%;
+    margin:0px auto;
+    padding: 25px;
+    border-left: 3px solid #BCBBBD;
+    border-right: 3px solid #BCBBBD;
+    justify-content: center;
+    align-items:center
+
+}
+/* Batman au cinema */
+.page2{
+    margin-left: 2%;
+}
+
+.bat-text1{
+    margin-left: 9%;
+    width: 80%;
+	text-align: justify;
+}
+ div.bat-hero{
+    display: flex;  
+    margin-right: 30px;
+    margin-top: 30px;
+}
+div.bat-hero img {
+    margin-left: 4%;
+    width: 30%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    transition: all 0.5s ease-out;
+}
+
+.bat-hero  img:hover{
+    transform: scale(1.1);
+}
+div.nom-hero{
+    display: flex;
+    text-align: justify;
+}
+div.nom-hero p{
+    margin-left: 4%;
+    width: 30%;
+    text-align: center;
+}
+/* Materiel */
+.bat-materiel {
+    position: absolute;
+    margin-left: 10% ;
+}
+.bat-materiel img{
+    width: 30%;
+
+}
+/* Enemi */
+
+.page3{
+    margin-top: 10%;
+
+}
+.bat-adv{
+    margin-left: 9%;
+    width: 80%;
+	text-align: justify;
+}
+.bat-enemi-imag{
+    display: flex;  
+    margin-right: 30px;
+    margin-top: 30px;
+}
+div.bat-enemi-imag img{
+    margin-left: 4%;
+    width: 30%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    transition: all 0.5s ease-out;
+}
+.bat-enemi-imag img:hover{
+    transform: scale(1.1);
+}
+.bat-materiel {
+    width: 50%;
+    text-align: justify;
+    color: white;
+
+}
+div.nom-enemi{
+    display: flex;
+    text-align: justify;
+}
+div.nom-enemi p{
+    margin-left: 4%;
+    width: 30%;
+    justify-content: space-between;
+    text-align: justify;
+}
+.bat-en-position {
+     position: absolute;
+     width: 50%;
+}
+.bat-en-position img{
+    width: 45%;
+     margin: -5% 0 0 130%;    
+      
+}
+
+/* Allies */
+
+div.page4{
+    margin-top: 15%;
+}
+div.text-bat-allie p {
+    margin-left: 9%;
+    width: 80%;
+	text-align: justify;
+}
+div.bat-allie-imag {
+    display: flex;  
+    margin-right: 30px;
+    margin-top: 30px;
+}
+div.bat-allie-imag img{
+    margin-left: 4%;
+    width: 30%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    transition: all 0.5s ease-out;
+}
+.bat-allie-imag img:hover{
+    transform: scale(1.1);
+}
+div.nom-allie{
+    display: flex;
+    text-align: justify;
+}
+div.nom-allie p{
+    margin-left: 4%;
+    width: 30%;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+/* justice liague */
+
+.justce-liague{
+    width: 120%;
+    margin-left: -18%;
+}
+.justce-liague img {
+     width: 120%;
+}
+.bat-avec-justice p{
+    margin-left: 9%;
+    width: 80%;
+	text-align: justify;
+}
+div.section4{
+    height: 68vw;
+    padding-top: 56vw;
+}
+
+/*multimedia  */
+
+div.page6{
+    justify-content: space-between;
+}
+div.btn-begis{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    align-items: center;
+}
+div.carre{
+    width: 110%;
+    height: 220px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(to right, #535353 10%, #03293f 60%);        
+   
+}
+div.carre-text.carre-image {
+    
+    width: 8.5vw;
+    height: 100%;
+    margin-top: 92%;
+}
+div.carre-text {
+    padding: -72%;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    }   
+.icon_flèche_1{
+    margin-top: 13%;
+}
+.icon_flèche_2{
+    margin-left: 73%;
+}
+
+/*bande annonce */
+.page7{
+    margin-top: 17%;
+}
+.page7 a img {
+    width: 70%;
+    margin-left: 17%;
+}
+.page7 img:hover{
+    filter: drop-shadow(0 2px 1.5rem #fff);
+}
+/* formulaire */
+.page8 {
+    width: 100%;
+    background: linear-gradient(160deg, #4b4a4afd 10%, #0f202bf5 60%);
+    position: absolute;
+    height: auto;
+    margin-top: 100%;
+    right: 0;
+    border: 1px solid rgba(128, 128, 128, 0.664);
+    margin-top: 15%;
+}
+
+#formulaire-contact {
+    width: 40%;
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+#formulaire-contact h3{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+}
+
+#formulaire-contact h4{
+    font-size: 20px;
+    font-weight: 1;
+}
+
+
+#formulaire-contact input[type="text"], #formulaire-contact input[type="email"] {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+    opacity: 90%;
+}
+
+.checkbox-form {
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+}
+
+.checkbox-form label{
+    opacity: 50%;
+}
+
+#formulaire-contact select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: transparent;
+    opacity: 50%;
+}
+
+/* Custom select */
+#frequence {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("Logos/Fleche2_avec_rotation.png");
+    background-repeat: no-repeat; 
+    background-size: 16px;
+    background-position: right center; 
+    padding-right: 20px; 
+    padding-bottom: 5px;
+    cursor: pointer; 
+} 
+
+#frequence option {
+    background: linear-gradient(160deg, #4b4a4afd 10%, #0f202bf5 60%);
+}
+
+select option { 
+    background-color: transparent;
+    color: black;
+}
+
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 0.8em;
+}
+
+#formulaire-contact .btn{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #fdfdfd7e 10%, #146696c2 60%);
+    border-image-slice: 1;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.confirm-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/* page9 */
+
+.page9{
+    margin-top: 250%;
+}
+.page9-texte{
+    text-align: center;
+}
+.icon_guillemets_2{
+    margin-left: 75%;
+}
+
+/* footer */
+
+footer{
+    height: 18%;
+    margin: 0 ;
+    width: 90%;
+    margin:0px auto;
+    padding: 25px;
+    border: 3px solid #BCBBBD;
+    border-top: none;
+    border-bottom: none;
+}
+.pied{
+    text-align:center;
+}
+.dernier-img{
+    margin-top: 5%;
+}
+.dernier-img img{
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*  style font */
+
+@font-face {
+    font-family: 'titre h1';
+    src: url(/fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'titre h2';
+    src: url(/fonts/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: 'sous-titre';
+    src: url(/fonts/SpaceGrotesk-Regular.ttf);
+}
+h1{
+    font-family: 'titre h1';
+    font-size: 3em;
+}
+p{
+    font-family: 'sous-titre';
+    font-size: 1.5em;
+}
+h2{
+    font-family: 'titre h2';
+    font-size: 1.8em;
+}
+button{
+    font-family: 'titre h1';
+    font-size: 1.6em;
+}
+
+/*responsive */
+@media screen and (min-width: 0px) {
+    body{
+        font-size: 6px;
+    }
+    div.header-btn button {
+        padding: 0px 20px;
+        margin: 0px 5px;
+    }
+}
+@media screen and (min-width: 320px) {
+    body{
+        font-size: 8px;
+    }
+    
+}
+@media screen and (min-width: 640px) {
+    body{
+        font-size: 10px;
+    }
+    .page9{
+        margin-top: 110%;
+    }
+    .page9-texte{
+        text-align: center;
+    }
+    .icon_guillemets_2{
+        margin-left: 85%;
+    }
+}
+@media screen and (min-width: 800px) {
+    body{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    body{
+        font-size: 12px;
+    }
+
+    .bat-en-position img{
+        width: 45%;
+         margin: -5% 0 0 140%;    
+          
+    }
+    .page9{
+        margin-top: 90%;
+    }
+    .page9-texte{
+        text-align: center;
+    }
+    .icon_guillemets_2{
+        margin-left: 85%;
+    }
+    /* les ronde de navigatios */
+    .rond{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ronde{
+        width: 13px;
+        height: 13px;
+        margin: 0 5px;
+        border: 1px solid #19587D;
+        border-radius: 80%;
+    }
+   
+}
